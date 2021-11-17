@@ -1,8 +1,9 @@
 let main = document.getElementById('main');
 
 main.id = "main2";
-main.style.display = "hidden";
+main.style.visibility = "hidden";
 main.innerHTML = "Mon nouveau texte !";
+main.style.display = "block";
 
 let html = main.innerHTML;
 
@@ -18,4 +19,4 @@ else {
     }
 }
 
-main.style.display = "block";
+
